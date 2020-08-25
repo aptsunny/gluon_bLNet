@@ -1,0 +1,20 @@
+Namespace(batch_norm=False, batch_size=288, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float16', hard_weight=0.5, input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.9, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='blresnet50_v1', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=8, num_workers=60, rec_train='/home/ubuntu/data/train.rec', rec_train_idx='/home/ubuntu/data/train.idx', rec_val='/home/ubuntu/data/val.rec', rec_val_idx='/home/ubuntu/data/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, teacher=None, temperature=20, use_gn=False, use_pretrained=False, use_rec=True, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=288, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float16', hard_weight=0.5, input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.9, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='blresnet50_v1', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=1, num_workers=60, rec_train='/home/ubuntu/data/train.rec', rec_train_idx='/home/ubuntu/data/train.idx', rec_val='/home/ubuntu/data/val.rec', rec_val_idx='/home/ubuntu/data/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, teacher=None, temperature=20, use_gn=False, use_pretrained=False, use_rec=True, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Epoch[0] Batch [49]	Speed: 72.187523 samples/sec	accuracy=0.001111	lr=0.002023
+Epoch[0] Batch [99]	Speed: 75.054732 samples/sec	accuracy=0.001597	lr=0.004047
+Epoch[0] Batch [149]	Speed: 73.094376 samples/sec	accuracy=0.001644	lr=0.006070
+Epoch[0] Batch [199]	Speed: 75.199962 samples/sec	accuracy=0.001615	lr=0.008094
+Epoch[0] Batch [249]	Speed: 73.106955 samples/sec	accuracy=0.001708	lr=0.010117
+Epoch[0] Batch [299]	Speed: 72.323388 samples/sec	accuracy=0.001759	lr=0.012141
+Epoch[0] Batch [349]	Speed: 71.629473 samples/sec	accuracy=0.001875	lr=0.014164
+Epoch[0] Batch [399]	Speed: 71.816448 samples/sec	accuracy=0.001849	lr=0.016188
+Epoch[0] Batch [449]	Speed: 74.896983 samples/sec	accuracy=0.001944	lr=0.018211
+Epoch[0] Batch [499]	Speed: 72.650905 samples/sec	accuracy=0.002125	lr=0.020235
+Epoch[0] Batch [549]	Speed: 72.366503 samples/sec	accuracy=0.002172	lr=0.022258
+Epoch[0] Batch [599]	Speed: 75.893562 samples/sec	accuracy=0.002326	lr=0.024282
+Epoch[0] Batch [649]	Speed: 75.187049 samples/sec	accuracy=0.002425	lr=0.026305
+Epoch[0] Batch [699]	Speed: 75.242375 samples/sec	accuracy=0.002634	lr=0.028329
+Epoch[0] Batch [749]	Speed: 72.652215 samples/sec	accuracy=0.002750	lr=0.030352
+Epoch[0] Batch [799]	Speed: 73.409293 samples/sec	accuracy=0.002891	lr=0.032376
+Epoch[0] Batch [849]	Speed: 74.567866 samples/sec	accuracy=0.002982	lr=0.034399
+Epoch[0] Batch [899]	Speed: 74.086389 samples/sec	accuracy=0.003156	lr=0.036423
